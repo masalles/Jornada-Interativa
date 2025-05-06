@@ -1,0 +1,30 @@
+{
+  "name": "guia-interativo",
+  "version": "1.0.0",
+  "description": "Uma aplicação web interativa projetada para guiar usuários em uma jornada espiritual estruturada.",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8001 -c-1 --cors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spiritual",
+    "journey",
+    "christian",
+    "interactive",
+    "bible"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.4.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.5.3",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
